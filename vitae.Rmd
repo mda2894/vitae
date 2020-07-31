@@ -1,0 +1,39 @@
+---
+name: Michael D.
+surname: Anderson
+position: "Data Scientist"
+address: "Relocating to Louisville, KY"
+phone: 502-415-0709
+email: "mda2894@gmail.com"
+github: mda2894
+linkedin: mda2894
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Summary
+- Stuff
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+    "Post-Graduate Studies in Biostatistics", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY",
+    "Master of Science in Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY",
+    "Bachelor of Science in Mathematical Economics", "August 2012 - May 2016", "University of Kentucky", "Lexington, KY"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experience
+- Stuff
+
+# Skills
+- Stuff
