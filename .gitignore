@@ -41,3 +41,5 @@ vignettes/*.pdf
 *.sty
 /fonts
 curie.bib
+moderncv.cls
+.gitattributes
