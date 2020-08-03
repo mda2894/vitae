@@ -59,4 +59,4 @@ tribble(
 ## Languages
 - **Most Experienced:** R, Python, SAS
 - **Some Experience:** SQL, Stata, SPSS
-- **Interested In:** C, C#, C++, HTML/CSS, Java, JavaScript, Julia
+- **Interested In:** C, C#, C++, HTML/CSS, Java, JavaScript, Julia, Ruby
