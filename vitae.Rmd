@@ -53,8 +53,8 @@ tribble(
 # Skills
 
 ## Software
-- **Most Experienced:** RStudio, SAS, Git/GitHub, Excel, Atom IDE
-- **Some Experience:** Tableau, Jupyter Notebook, Amazon Web Services
+- **Most Experienced:** RStudio, SAS, Git/GitHub, Excel, LaTeX
+- **Some Experience:** Tableau, Jupyter Notebook, Amazon Web Services, Atom IDE
 
 ## Languages
 - **Most Experienced:** R, Python, SAS
