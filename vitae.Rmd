@@ -24,7 +24,7 @@ tribble(
   ~ degree, ~ year, ~ institution, ~ where, ~ details,
   "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Recipient of full-time graduate assistantship, including full tuition scholarship",
   "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Primary course of study focused on application of statistical methods to public health research, including coursework in data mining, longitudinal data analysis, generalized linear models, nonparametric statistics, causal inference, epidemiology, and statistical genetics",
-    "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Performed independent research into the development of novel nonparametric regression techniques, with the aim of publishing my own statistical software package in R",
+    "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Performed independent research into the development of novel nonparametric regression techniques",
   "Master of Science in Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Recipient of full-time graduate assistantship, including full tuition scholarship",
   "Master of Science in Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Primary course of study focused on advanced statistical theory and application, including coursework in machine learning, computational statistics, advanced data analysis, clinical trials, survival analysis, and experimental design",
   "Bachelor of Science in Mathematical Economics", "August 2012 - May 2016", "University of Kentucky", "Lexington, KY", "Summa Cum Laude, Departmental Honors",
@@ -53,10 +53,12 @@ tribble(
 # Skills
 
 ## Software
-- **Most Experienced:** RStudio, SAS, Git/GitHub, Excel, LaTeX
+- **Most Experienced:** RStudio & R Markdown, SAS, Git & GitHub, Microsoft Office & Excel, LaTeX
 - **Some Experience:** Tableau, Jupyter Notebook, Amazon Web Services, Atom IDE
 
 ## Languages
 - **Most Experienced:** R, Python, SAS
-- **Some Experience:** SQL, Stata, SPSS, C, HTML/CSS, Java, Javascript
+- **Some Experience:** SQL, Stata, SPSS, C, HTML & CSS, Java, Javascript
 - **Interested In:** C#, C++, Julia, Ruby
+
+Portfolio with programming and writing samples available on my GitHub, linked above
