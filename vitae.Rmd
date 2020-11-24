@@ -2,7 +2,7 @@
 name: Michael D.
 surname: Anderson
 position: "Data Scientist"
-address: "Relocating to Louisville, Kentucky"
+address: "Louisville, Kentucky"
 phone: 502.415.0709
 email: "mda2894@gmail.com"
 github: mda2894
