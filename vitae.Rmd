@@ -23,29 +23,44 @@ library(tibble)
 tribble(
   ~ degree, ~ year, ~ institution, ~ where, ~ details,
   "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Recipient of full-time graduate assistantship, including full tuition scholarship",
+  
   "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Primary course of study focused on application of statistical methods to public health research, including coursework in data mining, longitudinal data analysis, generalized linear models, nonparametric statistics, causal inference, epidemiology, and statistical genetics",
+  
     "Graduate Certificate in Biostatistics, Post-Graduate Studies in Public Health", "August 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Performed independent research into the development of novel nonparametric regression techniques",
+  
   "Master of Science in Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Recipient of full-time graduate assistantship, including full tuition scholarship",
+  
   "Master of Science in Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Primary course of study focused on advanced statistical theory and application, including coursework in machine learning, computational statistics, advanced data analysis, clinical trials, survival analysis, and experimental design",
+  
   "Bachelor of Science in Mathematical Economics", "August 2012 - May 2016", "University of Kentucky", "Lexington, KY", "Summa Cum Laude, Departmental Honors",
+  
   "Bachelor of Science in Mathematical Economics", "August 2012 - May 2016", "University of Kentucky", "Lexington, KY", "Recipient of Academic Excellence Scholarship and Alumni Collegiate Plate Scholarship",
+  
   "Bachelor of Science in Mathematical Economics", "August 2012 - May 2016", "University of Kentucky", "Lexington, KY", "Officer of UK Economics Society, founding member of UK Quiz Bowl team",
+  
   "Bachelor of Science in Mathematical Economics", "August 2012 - May 2016", "University of Kentucky", "Lexington, KY", "Primary course of study focused on quantitative methods in economics, including coursework in game theory, econometrics, and computer programming, with graduate-level coursework in probability, statistical inference, quantitative economics, and symbolic logic"
 ) %>% 
   detailed_entries(degree, year, institution, where, details)
 ```
 
 # Experience
+
 ```{r}
 tribble(
   ~ position, ~ year, ~ institution, ~ where, ~ details,
-  "Graduate Assistant - Department of Biostatistics", "May 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Assisted primary instructors for undergraduate introductory biostatistics courses, as well as graduate courses in survival analysis, generalized linear models, and public health biostatistics",
-  "Graduate Assistant - Department of Biostatistics", "May 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Performed research duties for healthcare researchers in the University's Center for Clinical and Translational Sciences (CCTS), and professors in the Department of Health Management and Policy",
-  "Graduate Assistant - Department of Biostatistics", "May 2018 - May 2020", "University of Kentucky", "Lexington, KY", "Prepared material for workshop on survival analysis in SAS, through the Biostatistics, Epidemiology, and Research Design (BERD) core of the CCTS",
-  "Graduate Assistant - Department of Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Assisted primary instructors for STA 296 (introductory course in statistical methods), as well as an online graduate course in bayesian data analysis",
-  "Graduate Assistant - Department of Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Managed my own section of STA 296 as the primary instructor, which included preparing lecture material, assignments, and exams for a class of over 30 students",
-  "Graduate Assistant - Department of Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Improved student performance through in-person and digital office hours for my own students, and tutoring sessions for all STA 296 students (over 750 in total each semester)",
-  "Graduate Assistant - Department of Statistics", "August 2016 - May 2018", "University of Kentucky", "Lexington, KY", "Led multiple statistical programming workshops in R and SAS through the University's Quantitative Initiative for Policy and Social Research (QIPSR), including workshops on introductory programming, data analysis, and data visualization"
+  "Financial Data Transcriber", "January 2021 - Present", "JPMorgan Chase", "Louisville, KY", "Handled highly confidential taxpayer data at a high-security IRS processing facility, managed by JPMorgan Chase",
+  
+  "Financial Data Transcriber", "January 2021 - Present", "JPMorgan Chase", "Louisville, KY", "Duties included: extracting, processing, and balancing taxpayer data in the form of tax returns and payments; ensuring quick and accurate data entry into IRS database; training and assisting other staff in proper data processing and security protocols",
+  
+
+  
+  "Graduate Assistant - Departments of Statistics and Biostatistics", "August 2016 - May 2020", "University of Kentucky", "Lexington, KY", "Performed research duties for healthcare researchers in the University's Center for Clinical and Translational Sciences (CCTS), and professors in the Department of Health Management and Policy",
+  
+  "Graduate Assistant - Departments of Statistics and Biostatistics", "August 2016 - May 2020", "University of Kentucky", "Lexington, KY", "Led multiple statistical programming workshops in R and SAS through the University's Quantitative Initiative for Policy and Social Research (QIPSR) and the Biostatistics, Epidemiology, and Research Design (BERD) core of the CCTS, including workshops on introductory programming, data analysis, data visualization, and survival analysis",
+  
+  "Graduate Assistant - Departments of Statistics and Biostatistics", "August 2016 - May 2020", "University of Kentucky", "Lexington, KY", "Taught my own section of STA 296 (undergraduate course in statistical methods) as the primary instructor, which included preparing lecture material, assignments, and exams for a class of over 30 students, as well as providing in-person and online tutoring hours for all STA 296 students (over 750 in total each semester)",
+  
+  "Graduate Assistant - Departments of Statistics and Biostatistics", "August 2016 - May 2020", "University of Kentucky", "Lexington, KY", "Assisted primary instructors on undergraduate courses in statistics and biostatistics, as well as graduate courses in bayesian data analysis, survival analysis, generalized linear models, and public health biostatistics"
 ) %>% 
   detailed_entries(position, year, institution, where, details)
 ```
@@ -53,12 +68,11 @@ tribble(
 # Skills
 
 ## Software
-- **Most Experienced:** RStudio & R Markdown, SAS, Git & GitHub, Microsoft Office & Excel, LaTeX
-- **Some Experience:** Tableau, Jupyter Notebook, Amazon Web Services, Atom IDE
+- **Professional Experience:** RStudio & R Markdown, SAS, Git & GitHub, Microsoft Office & Excel, LaTeX, Tableau
+- **Personal Experience:** Amazon Web Services, Jupyter Notebook, Atom IDE, Spyder IDE
 
-## Languages
-- **Most Experienced:** R, Python, SAS
-- **Some Experience:** SQL, Stata, SPSS, C, HTML & CSS, Java, Javascript
-- **Interested In:** C#, C++, Julia, Ruby
+## Programming
+- **Professional Experience:** R, Python, SAS, SQL, Stata, SPSS
+- **Personal Experience:** C, HTML & CSS, Java, Javascript
 
-Portfolio with programming and writing samples available on my GitHub, linked above
+Portfolio with programming and scientific writing samples available on my GitHub, linked above
