@@ -17,6 +17,8 @@ library(vitae)
 library(tibble)
 ```
 
+$~$
+
 # Education
 
 ```{r}
@@ -43,16 +45,23 @@ tribble(
   detailed_entries(degree, year, institution, where, details)
 ```
 
+$~$
+
 # Experience
 
 ```{r}
 tribble(
   ~ position, ~ year, ~ institution, ~ where, ~ details,
-  "Financial Data Transcriber", "January 2021 - Present", "JPMorgan Chase", "Louisville, KY", "Handled highly confidential taxpayer data at a high-security IRS processing facility, managed by JPMorgan Chase",
   
-  "Financial Data Transcriber", "January 2021 - Present", "JPMorgan Chase", "Louisville, KY", "Duties included: extracting, processing, and balancing taxpayer data in the form of tax returns and payments; ensuring quick and accurate data entry into IRS database; training and assisting other staff in proper data processing and security protocols",
+  "Data Analyst", "December 2021 - Present", "Strategic Marketing", "Louisville, KY", "Managed business database and statistical analytics for a data-driven, automotive marketing firm with hundreds of clients around the country",
   
-
+  "Data Analyst", "December 2021 - Present", "Strategic Marketing", "Louisville, KY", "Integrated client data and external marketing data with business database, while maintaining data integrity and security, as well as consumer privacy and confidentiality",
+  
+  "Data Analyst", "December 2021 - Present", "Strategic Marketing", "Louisville, KY", "Performed database analytics for clients, to help them better understand their own data, and created performance analytics for multi-channel marketing campaigns, including direct mail, email, and digital and social media marketing, to demonstrate campaign efficacy",
+  
+  "Financial Data Transcriber", "January 2021 - December 2021", "JPMorgan Chase", "Louisville, KY", "Handled highly confidential taxpayer data at a high-security IRS processing facility, managed by JPMorgan Chase",
+  
+  "Financial Data Transcriber", "January 2021 - December 2021", "JPMorgan Chase", "Louisville, KY", "Duties included: extracting, processing, and balancing taxpayer data in the form of tax returns and payments; ensuring quick and accurate data entry into IRS database; training and assisting other staff in proper data processing and security protocols",
   
   "Graduate Assistant - Departments of Statistics and Biostatistics", "August 2016 - May 2020", "University of Kentucky", "Lexington, KY", "Performed research duties for healthcare researchers in the University's Center for Clinical and Translational Sciences (CCTS), and professors in the Department of Health Management and Policy",
   
@@ -65,14 +74,18 @@ tribble(
   detailed_entries(position, year, institution, where, details)
 ```
 
+\newpage
+
 # Skills
 
-## Software
-- **Professional Experience:** RStudio & R Markdown, SAS, Git & GitHub, Microsoft Office & Excel, LaTeX, Tableau
-- **Personal Experience:** Amazon Web Services, Jupyter Notebook, Atom IDE, Spyder IDE
+**Programming**
 
-## Programming
-- **Professional Experience:** R, Python, SAS, SQL, Stata, SPSS
-- **Personal Experience:** C, HTML & CSS, Java, Javascript
+- R, SQL, Python, C, HTML & CSS, Java, Javascript
+
+**Software**
+
+- RStudio & R Markdown, SAS, Stata, SPSS, Git & GitHub, Jupyter Notebook, Microsoft Office & Excel, LaTeX, Tableau, Amazon Web Services
+
+$~$
 
 Portfolio with programming and scientific writing samples available on my GitHub, linked above
